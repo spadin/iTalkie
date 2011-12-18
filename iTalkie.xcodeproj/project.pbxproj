@@ -11,8 +11,15 @@
 		5FFA3C0A149D52C700ED3221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C08149D52C700ED3221 /* InfoPlist.strings */; };
 		5FFA3C0C149D52C700ED3221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C0B149D52C700ED3221 /* main.m */; };
 		5FFA3C10149D52C700ED3221 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C0E149D52C700ED3221 /* Credits.rtf */; };
-		5FFA3C13149D52C700ED3221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C12149D52C700ED3221 /* AppDelegate.m */; };
+		5FFA3C13149D52C700ED3221 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C12149D52C700ED3221 /* AppDelegate.mm */; };
 		5FFA3C16149D52C700ED3221 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C14149D52C700ED3221 /* MainMenu.xib */; };
+		5FFA3C23149D579600ED3221 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C22149D579600ED3221 /* microphone.png */; };
+		5FFA3C25149D5CCC00ED3221 /* microphone_muted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C24149D5CCC00ED3221 /* microphone_muted.png */; };
+		5FFA3C28149D60C400ED3221 /* neg_microphone_muted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C26149D60C400ED3221 /* neg_microphone_muted.png */; };
+		5FFA3C29149D60C400ED3221 /* neg_microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C27149D60C400ED3221 /* neg_microphone.png */; };
+		5FFA3C2B149D69F000ED3221 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFA3C2A149D69F000ED3221 /* Carbon.framework */; };
+		5FFA3C2D149DA47600ED3221 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C2C149DA47600ED3221 /* icon.png */; };
+		5FFA3C2F149DA5E900ED3221 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C2E149DA5E900ED3221 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +28,21 @@
 		5FFA3C02149D52C700ED3221 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5FFA3C03149D52C700ED3221 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5FFA3C04149D52C700ED3221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5FFA3C07149D52C700ED3221 /* iTalkie-Info.plist */ = {isa = PBXFileReference; path = "iTalkie-Info.plist"; sourceTree = "<group>"; };
+		5FFA3C07149D52C700ED3221 /* iTalkie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTalkie-Info.plist"; sourceTree = "<group>"; };
 		5FFA3C09149D52C700ED3221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FFA3C0B149D52C700ED3221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5FFA3C0D149D52C700ED3221 /* iTalkie-Prefix.pch */ = {isa = PBXFileReference; path = "iTalkie-Prefix.pch"; sourceTree = "<group>"; };
+		5FFA3C0D149D52C700ED3221 /* iTalkie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTalkie-Prefix.pch"; sourceTree = "<group>"; };
 		5FFA3C0F149D52C700ED3221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5FFA3C11149D52C700ED3221 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		5FFA3C12149D52C700ED3221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FFA3C11149D52C700ED3221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FFA3C12149D52C700ED3221 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		5FFA3C15149D52C700ED3221 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5FFA3C22149D579600ED3221 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		5FFA3C24149D5CCC00ED3221 /* microphone_muted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone_muted.png; sourceTree = "<group>"; };
+		5FFA3C26149D60C400ED3221 /* neg_microphone_muted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neg_microphone_muted.png; sourceTree = "<group>"; };
+		5FFA3C27149D60C400ED3221 /* neg_microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neg_microphone.png; sourceTree = "<group>"; };
+		5FFA3C2A149D69F000ED3221 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5FFA3C2C149DA47600ED3221 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5FFA3C2E149DA5E900ED3221 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFA3C2B149D69F000ED3221 /* Carbon.framework in Frameworks */,
 				5FFA3C00149D52C700ED3221 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +61,9 @@
 		5FFA3BF0149D52C700ED3221 = {
 			isa = PBXGroup;
 			children = (
+				5FFA3C2E149DA5E900ED3221 /* icon.icns */,
+				5FFA3C2C149DA47600ED3221 /* icon.png */,
+				5FFA3C2A149D69F000ED3221 /* Carbon.framework */,
 				5FFA3C05149D52C700ED3221 /* iTalkie */,
 				5FFA3BFE149D52C700ED3221 /* Frameworks */,
 				5FFA3BFC149D52C700ED3221 /* Products */,
@@ -82,8 +100,9 @@
 		5FFA3C05149D52C700ED3221 /* iTalkie */ = {
 			isa = PBXGroup;
 			children = (
+				5FFA3C20149D577E00ED3221 /* images */,
 				5FFA3C11149D52C700ED3221 /* AppDelegate.h */,
-				5FFA3C12149D52C700ED3221 /* AppDelegate.m */,
+				5FFA3C12149D52C700ED3221 /* AppDelegate.mm */,
 				5FFA3C14149D52C700ED3221 /* MainMenu.xib */,
 				5FFA3C06149D52C700ED3221 /* Supporting Files */,
 			);
@@ -100,6 +119,17 @@
 				5FFA3C0E149D52C700ED3221 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FFA3C20149D577E00ED3221 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5FFA3C26149D60C400ED3221 /* neg_microphone_muted.png */,
+				5FFA3C27149D60C400ED3221 /* neg_microphone.png */,
+				5FFA3C24149D5CCC00ED3221 /* microphone_muted.png */,
+				5FFA3C22149D579600ED3221 /* microphone.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +185,12 @@
 				5FFA3C0A149D52C700ED3221 /* InfoPlist.strings in Resources */,
 				5FFA3C10149D52C700ED3221 /* Credits.rtf in Resources */,
 				5FFA3C16149D52C700ED3221 /* MainMenu.xib in Resources */,
+				5FFA3C23149D579600ED3221 /* microphone.png in Resources */,
+				5FFA3C25149D5CCC00ED3221 /* microphone_muted.png in Resources */,
+				5FFA3C28149D60C400ED3221 /* neg_microphone_muted.png in Resources */,
+				5FFA3C29149D60C400ED3221 /* neg_microphone.png in Resources */,
+				5FFA3C2D149DA47600ED3221 /* icon.png in Resources */,
+				5FFA3C2F149DA5E900ED3221 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FFA3C0C149D52C700ED3221 /* main.m in Sources */,
-				5FFA3C13149D52C700ED3221 /* AppDelegate.m in Sources */,
+				5FFA3C13149D52C700ED3221 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +324,7 @@
 				5FFA3C1B149D52C700ED3221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
