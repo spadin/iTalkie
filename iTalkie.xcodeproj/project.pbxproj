@@ -11,7 +11,7 @@
 		5FFA3C0A149D52C700ED3221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C08149D52C700ED3221 /* InfoPlist.strings */; };
 		5FFA3C0C149D52C700ED3221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C0B149D52C700ED3221 /* main.m */; };
 		5FFA3C10149D52C700ED3221 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C0E149D52C700ED3221 /* Credits.rtf */; };
-		5FFA3C13149D52C700ED3221 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C12149D52C700ED3221 /* AppDelegate.mm */; };
+		5FFA3C13149D52C700ED3221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C12149D52C700ED3221 /* AppDelegate.m */; };
 		5FFA3C16149D52C700ED3221 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C14149D52C700ED3221 /* MainMenu.xib */; };
 		5FFA3C23149D579600ED3221 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C22149D579600ED3221 /* microphone.png */; };
 		5FFA3C25149D5CCC00ED3221 /* microphone_muted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C24149D5CCC00ED3221 /* microphone_muted.png */; };
@@ -34,7 +34,7 @@
 		5FFA3C0D149D52C700ED3221 /* iTalkie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTalkie-Prefix.pch"; sourceTree = "<group>"; };
 		5FFA3C0F149D52C700ED3221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5FFA3C11149D52C700ED3221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5FFA3C12149D52C700ED3221 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		5FFA3C12149D52C700ED3221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FFA3C15149D52C700ED3221 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5FFA3C22149D579600ED3221 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
 		5FFA3C24149D5CCC00ED3221 /* microphone_muted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone_muted.png; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			children = (
 				5FFA3C20149D577E00ED3221 /* images */,
 				5FFA3C11149D52C700ED3221 /* AppDelegate.h */,
-				5FFA3C12149D52C700ED3221 /* AppDelegate.mm */,
+				5FFA3C12149D52C700ED3221 /* AppDelegate.m */,
 				5FFA3C14149D52C700ED3221 /* MainMenu.xib */,
 				5FFA3C06149D52C700ED3221 /* Supporting Files */,
 			);
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FFA3C0C149D52C700ED3221 /* main.m in Sources */,
-				5FFA3C13149D52C700ED3221 /* AppDelegate.mm in Sources */,
+				5FFA3C13149D52C700ED3221 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
