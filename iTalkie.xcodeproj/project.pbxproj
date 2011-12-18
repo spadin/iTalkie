@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F99AD7C149DBCEF00D27562 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F99AD7B149DBCEF00D27562 /* Credits.rtf */; };
 		5FFA3C00149D52C700ED3221 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFA3BFF149D52C700ED3221 /* Cocoa.framework */; };
 		5FFA3C0A149D52C700ED3221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3C08149D52C700ED3221 /* InfoPlist.strings */; };
 		5FFA3C0C149D52C700ED3221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA3C0B149D52C700ED3221 /* main.m */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F99AD7B149DBCEF00D27562 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		5FFA3BFB149D52C700ED3221 /* iTalkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTalkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFA3BFF149D52C700ED3221 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5FFA3C02149D52C700ED3221 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -98,6 +100,7 @@
 		5FFA3C05149D52C700ED3221 /* iTalkie */ = {
 			isa = PBXGroup;
 			children = (
+				5F99AD7B149DBCEF00D27562 /* Credits.rtf */,
 				5FFA3C20149D577E00ED3221 /* images */,
 				5FFA3C11149D52C700ED3221 /* AppDelegate.h */,
 				5FFA3C12149D52C700ED3221 /* AppDelegate.m */,
@@ -187,6 +190,7 @@
 				5FFA3C29149D60C400ED3221 /* neg_microphone.png in Resources */,
 				5FFA3C2D149DA47600ED3221 /* icon.png in Resources */,
 				5FFA3C2F149DA5E900ED3221 /* icon.icns in Resources */,
+				5F99AD7C149DBCEF00D27562 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
