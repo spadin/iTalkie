@@ -9,7 +9,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Copy"
-               scriptText = "cp -r &quot;$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app&quot; &quot;$PROJECT_DIR/build/$PRODUCT_NAME.app&quot;&#10;">
+               scriptText = "mkdir -p &quot;$PROJECT_DIR/build&quot;&#10;cp -r &quot;$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app&quot; &quot;$PROJECT_DIR/build/$PRODUCT_NAME.app&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
